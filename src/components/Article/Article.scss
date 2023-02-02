@@ -1,0 +1,18 @@
+.article {
+    margin-bottom: 30px;
+    width: calc(33.33% - 15px);
+    border-top: 2px solid #00000008;
+    padding: 0px 10px;
+
+    @media only screen and (max-width: 767px) {
+        width: calc(50% - 15px);
+    }
+
+    @media only screen and (max-width: 470px) {
+        width: calc(100% - 15px);
+    }
+
+    &-title {
+        padding: 0px;
+    }
+}

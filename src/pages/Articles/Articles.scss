@@ -1,0 +1,33 @@
+.articles {
+    margin: 0 auto;
+    
+    &-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    } 
+
+    &-user {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        font-size: 13px;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+        background-color: black;
+    }
+
+    &-wrap {
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    &-logout {
+        padding: 0;
+        color: white;
+        background-color: transparent;
+    }
+}

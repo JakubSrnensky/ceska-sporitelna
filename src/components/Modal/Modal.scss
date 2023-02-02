@@ -1,0 +1,34 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    &-title {
+        padding-top: 0;
+    }
+    
+    &-dates {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0px 20px;
+        display: flex;
+    }
+
+    &-dateEdit {
+        margin-left: auto;
+    }
+}
